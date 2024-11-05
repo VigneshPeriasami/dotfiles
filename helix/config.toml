@@ -1,0 +1,16 @@
+theme = "hex_toxic"
+
+[editor]
+line-number = "relative"
+
+[editor.file-picker]
+hidden = false
+
+[keys.insert]
+A-k = "move_line_up"
+A-h = "move_char_left"
+A-j = "move_line_down"
+A-l = "move_char_right"
+C-e = "goto_line_end_newline"
+C-a = "goto_first_nonwhitespace"
+"C-[" = "normal_mode"
