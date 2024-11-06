@@ -14,3 +14,6 @@ A-l = "move_char_right"
 C-e = "goto_line_end_newline"
 C-a = "goto_first_nonwhitespace"
 "C-[" = "normal_mode"
+
+[keys.select]
+"C-[" = "normal_mode"

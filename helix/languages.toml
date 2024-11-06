@@ -41,3 +41,7 @@ name = "go"
 formatter = { command = "gofmt" }
 language-servers = ["gopls"]
 auto-format = true
+
+[[language]]
+name = "markdown"
+formatter = { command = "dprint", args = ["fmt", "--stdin", "md"] }
